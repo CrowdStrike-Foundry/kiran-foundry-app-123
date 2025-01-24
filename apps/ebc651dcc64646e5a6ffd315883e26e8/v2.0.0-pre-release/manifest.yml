@@ -1,0 +1,33 @@
+app_id: ebc651dcc64646e5a6ffd315883e26e8
+name: Kiran Foundry App
+description: Kiran Foundry App
+logo: ""
+manifest_version: ""
+ignored: []
+ui:
+    homepage: ""
+    extensions: []
+    pages: {}
+    dashboards: {}
+    navigation: {}
+api_integrations: []
+rtr_scripts: []
+collections:
+    - name: collection_123_xyz_123
+      description: This is collection 123 xyz
+      schema: collections/collection_123_xyz_123.json
+      permissions: []
+      workflow_integration: null
+    - name: collection_new_123
+      description: collection new 123
+      schema: collections/collection_new_123.json
+      permissions: []
+      workflow_integration: null
+auth:
+    scopes: []
+    permissions: {}
+    roles: []
+functions: []
+workflows: []
+logscale:
+    saved_searches: []
